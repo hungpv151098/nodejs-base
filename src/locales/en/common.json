@@ -1,0 +1,35 @@
+{
+  "helloWorld": "Hello",
+  "auth": {
+    "accountExisted": "Account existed",
+    "accountNotExist": "Account not existed",
+    "wrongPassword": "Password is wrong",
+    "tokenWrong": "Wrong Token"
+  },
+  "validate": {
+    "required": "The :attribute field is required.",
+    "header": "This API cannot call from outside.",
+    "password_confirm": "The password confirmation does not match.",
+    "minLength": "The password must be at least 6 characters.",
+    "isEmail": "Please enter a valid email address.",
+    "isNumber": "The :attribute field must be a numeric.",
+    "isInteger":"The :attribute field must be a integer.",
+    "isString": "The :attribute field must be a string.",
+    "isArray": "The :attribute field must be a array.",
+    "isImage": "The :attribute field must be a image.",
+    "invalid": "The :attribute field is invalid value."
+  },
+  "field": {
+    "type": "type",
+    "txHash": "Transaction hash",
+    "content": "content",
+    "image": "image",
+    "ip": "ip"
+  },
+  "error": {
+    "pageNotFound": "Page not found",
+    "tooManyRequests": "Too many requests, please try again later.",
+    "unknownError": "An unknown error has occurred",
+    "validationError": "Validation Error!"
+  }
+}

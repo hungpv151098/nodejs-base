@@ -1,0 +1,31 @@
+const responseCode = {
+  OK: 'OK',
+  END_POINT_NOT_FOUND: 'END_POINT_NOT_FOUND',
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  UNAUTHORIZED: 'UNAUTHORIZED',
+  BAD_REQUEST: 'BAD_REQUEST',
+  TOO_MANY_REQUESTS: 'TOO_MANY_REQUESTS',
+  UNKNOWN_ERROR: 'UNKNOWN_ERROR',
+  NOT_FOUND: 'NOT_FOUND',
+};
+
+const responseStatus = {
+  OK: 200,
+  END_POINT_NOT_FOUND: 404,
+  VALIDATION_ERROR: 422,
+  UNAUTHORIZED: 401,
+  BAD_REQUEST: 400,
+  TOO_MANY_REQUESTS: 429,
+  UNKNOWN_ERROR: 500,
+  NOT_FOUND: 404,
+};
+
+const responseMessage = {
+  CONTEXT_NOT_FOUND: 'CONTEXT_NOT_FOUND',
+};
+
+module.exports = {
+  responseCode,
+  responseStatus,
+  responseMessage,
+};
